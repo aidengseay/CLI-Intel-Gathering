@@ -1,0 +1,4 @@
+Things to do:
+- Encode message to base64 -- done
+- download log files -- in progress
+- publish new ssh brute force tool at https://github.com/aidengseay/SSH_Tool.git -- done

@@ -1,0 +1,3 @@
+flag{e97e6c03-8e67-4b93-bd9b-7339bd17923c}
+
+Good job! This is what a flag would look like in your system.

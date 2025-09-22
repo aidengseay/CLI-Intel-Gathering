@@ -1,0 +1,166 @@
+ 0.000000, OS: Simulator start
+ 0.000013, OS: Process 0 set to READY state from NEW state
+ 0.000017, OS: Process 1 set to READY state from NEW state
+ 0.000020, OS: Process 2 set to READY state from NEW state
+ 0.000022, OS: Process 3 set to READY state from NEW state
+ 0.000024, OS: Process 4 set to READY state from NEW state
+--------------------------------------------------
+After memory initialization
+0 [ Open, P#: x, 0-0 ] 11099
+--------------------------------------------------
+ 0.000035, OS: Process 0 selected with 5880 ms remaining
+ 0.000038, OS: Process 0 set from READY to RUNNING
+
+ 0.000041, Process: 0, serial input operation start
+ 0.560741, Process: 0, serial input operation end
+ 0.560830, Process: 0, video signal output operation start
+ 3.516390, Process: 0, video signal output operation end
+ 3.516483, Process: 0, sound signal input operation start
+ 4.316907, Process: 0, sound signal input operation end
+ 4.317001, Process: 0, hard drive output operation start
+ 4.617325, Process: 0, hard drive output operation end
+ 4.617420, Process: 0, keyboard input operation start
+ 6.217959, Process: 0, keyboard input operation end
+ 6.218044, Process: 0, serial input operation start
+ 6.778535, Process: 0, serial input operation end
+ 6.778627, Process: 0, cpu process operation start
+ 6.878961, Process: 0, cpu process operation end
+ 6.879017, Process: 0, cpu process operation start
+ 6.959308, Process: 0, cpu process operation end
+ 6.959360, Process: 0, cpu process operation start
+ 7.019680, Process: 0, cpu process operation end
+ 7.019773, Process: 0, video signal output operation start
+ 8.000174, Process: 0, video signal output operation end
+
+ 8.000286, OS: Process 0 ended
+--------------------------------------------------
+After clear process 0 success
+0 [ Open, P#: x, 0-0 ] 11099
+--------------------------------------------------
+ 8.000318, OS: Process 0 set to EXIT
+ 8.000391, OS: Process 1 selected with 4670 ms remaining
+ 8.000454, OS: Process 1 set from READY to RUNNING
+
+ 8.000535, Process: 1, serial input operation start
+ 8.401159, Process: 1, serial input operation end
+ 8.401287, Process: 1, cpu process operation start
+ 8.461770, Process: 1, cpu process operation end
+ 8.461845, Process: 1, cpu process operation start
+ 8.542242, Process: 1, cpu process operation end
+ 8.542373, Process: 1, monitor output operation start
+ 9.942917, Process: 1, monitor output operation end
+ 9.943044, Process: 1, cpu process operation start
+10.003341, Process: 1, cpu process operation end
+10.003450, Process: 1, cpu process operation start
+10.093813, Process: 1, cpu process operation end
+10.093922, Process: 1, sound signal output operation start
+10.994329, Process: 1, sound signal output operation end
+10.994427, Process: 1, hard drive output operation start
+11.294724, Process: 1, hard drive output operation end
+11.294799, Process: 1, video signal input operation start
+12.275063, Process: 1, video signal input operation end
+12.275140, Process: 1, serial output operation start
+12.675379, Process: 1, serial output operation end
+
+12.675457, OS: Process 1 ended
+--------------------------------------------------
+After clear process 1 success
+0 [ Open, P#: x, 0-0 ] 11099
+--------------------------------------------------
+12.675477, OS: Process 1 set to EXIT
+12.675494, OS: Process 2 selected with 5530 ms remaining
+12.675498, OS: Process 2 set from READY to RUNNING
+
+12.675502, Process: 2, hard drive input operation start
+13.035734, Process: 2, hard drive input operation end
+13.035816, Process: 2, video signal output operation start
+14.016112, Process: 2, video signal output operation end
+14.016176, Process: 2, usb output operation start
+14.296389, Process: 2, usb output operation end
+14.296471, Process: 2, monitor output operation start
+15.696677, Process: 2, monitor output operation end
+15.696716, Process: 2, cpu process operation start
+15.766878, Process: 2, cpu process operation end
+15.766919, Process: 2, cpu process operation start
+15.857150, Process: 2, cpu process operation end
+15.857211, Process: 2, keyboard input operation start
+17.257431, Process: 2, keyboard input operation end
+17.257478, Process: 2, video signal input operation start
+18.097680, Process: 2, video signal input operation end
+18.097721, Process: 2, cpu process operation start
+18.147920, Process: 2, cpu process operation end
+18.147967, Process: 2, cpu process operation start
+18.208177, Process: 2, cpu process operation end
+
+18.208277, OS: Process 2 ended
+--------------------------------------------------
+After clear process 2 success
+0 [ Open, P#: x, 0-0 ] 11099
+--------------------------------------------------
+18.208304, OS: Process 2 set to EXIT
+18.208311, OS: Process 3 selected with 6600 ms remaining
+18.208319, OS: Process 3 set from READY to RUNNING
+
+18.208331, Process: 3, hard drive input operation start
+18.628702, Process: 3, hard drive input operation end
+18.628764, Process: 3, sound signal output operation start
+19.229012, Process: 3, sound signal output operation end
+19.229155, Process: 3, cpu process operation start
+19.299454, Process: 3, cpu process operation end
+19.299512, Process: 3, keyboard input operation start
+20.899803, Process: 3, keyboard input operation end
+20.899884, Process: 3, hard drive input operation start
+21.500152, Process: 3, hard drive input operation end
+21.500230, Process: 3, video signal output operation start
+22.760587, Process: 3, video signal output operation end
+22.760671, Process: 3, serial input operation start
+23.320945, Process: 3, serial input operation end
+23.321009, Process: 3, sound signal output operation start
+23.821259, Process: 3, sound signal output operation end
+23.821342, Process: 3, cpu process operation start
+23.911645, Process: 3, cpu process operation end
+23.911750, Process: 3, sound signal output operation start
+24.812015, Process: 3, sound signal output operation end
+
+24.812095, OS: Process 3 ended
+--------------------------------------------------
+After clear process 3 success
+0 [ Open, P#: x, 0-0 ] 11099
+--------------------------------------------------
+24.812209, OS: Process 3 set to EXIT
+24.812256, OS: Process 4 selected with 3060 ms remaining
+24.812264, OS: Process 4 set from READY to RUNNING
+
+24.812270, Process: 4, serial input operation start
+25.292583, Process: 4, serial input operation end
+25.292642, Process: 4, video signal output operation start
+26.132815, Process: 4, video signal output operation end
+26.132856, Process: 4, cpu process operation start
+26.183024, Process: 4, cpu process operation end
+26.183083, Process: 4, usb input operation start
+26.383372, Process: 4, usb input operation end
+26.383448, Process: 4, cpu process operation start
+26.463713, Process: 4, cpu process operation end
+26.463792, Process: 4, cpu process operation start
+26.554024, Process: 4, cpu process operation end
+26.554072, Process: 4, cpu process operation start
+26.614416, Process: 4, cpu process operation end
+26.614490, Process: 4, hard drive output operation start
+26.974748, Process: 4, hard drive output operation end
+26.974810, Process: 4, hard drive output operation start
+27.455160, Process: 4, hard drive output operation end
+27.455197, Process: 4, hard drive output operation start
+27.875333, Process: 4, hard drive output operation end
+
+27.875373, OS: Process 4 ended
+--------------------------------------------------
+After clear process 4 success
+0 [ Open, P#: x, 0-0 ] 11099
+--------------------------------------------------
+27.875382, OS: Process 4 set to EXIT
+27.875390, OS: System stop
+--------------------------------------------------
+After clear all process success
+No memory configured
+--------------------------------------------------
+27.875396, OS: Simulation end
