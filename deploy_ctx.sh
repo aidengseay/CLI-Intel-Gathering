@@ -28,12 +28,6 @@ while IFS= read -r username || [[ -n "${username:-}" ]]; do
 
     # Give user ownership of everything by default
     chown -R "$username:$username" "$HOME_DIR/$TARGET_BASENAME"
-
-    # For executables: lock down so they can run but not read
-    find "$HOME_DIR/$TARGET_BASENAME" -type f -perm -111 -print0 | while IFS= read -r -d '' exe; do
-      chown root:root "$exe"
-      chmod 111 "$exe"   # execute-only
-    done
   fi
 
   echo "Deployed $TARGET_BASENAME for $username"

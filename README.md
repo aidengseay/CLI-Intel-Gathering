@@ -55,7 +55,7 @@ If SSH isn’t available, download and use **PuTTY**:
 
 #### Your Goal
 
-Collect as many flags (up to 10) as you can by exploring the system. Each flag looks like:
+Collect as many flags (up to 7) as you can by exploring the system. Each flag looks like:
 
 ```bash
 flag{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}
@@ -66,6 +66,8 @@ flag{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}
 ## Admin Setup
 
 ### Steps
+
+0. Git clone the repository or download the zip file.
 
 1. Make sure Docker is [installed](https://www.docker.com/get-started/) and running
     - Linux: `systemctl status docker`
